@@ -9,6 +9,16 @@
     background-attachment: fixed;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+}
+
+div.about {
+  flex: 1;
+} 
+
 .main-div p {
     color: pink;
     font-family: 'Exo', sans-serif;
@@ -23,7 +33,7 @@
 
 .about-div {
     background-color: orange;
-    height: 60vh;
+    min-height: 50vh;
     padding: 25px;
 
 }
@@ -42,8 +52,8 @@
 
 .preview-div {
     background-color: pink;
-    height: 60vh;
-
+    height: 50vh;
+   
 
 }
 
