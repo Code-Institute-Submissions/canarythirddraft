@@ -10,14 +10,18 @@
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
 }
 
 div.about {
-  flex: 1;
-} 
+    flex: 1;
+}
+
+div.preview {
+    flex: 1;
+}
 
 .main-div p {
     color: pink;
@@ -28,12 +32,12 @@ div.about {
     position: fixed;
     top: 55px;
     left: 30px;
-    
+
 }
 
 .about-div {
     background-color: orange;
-    min-height: 50vh;
+    min-height: 60vh;
     padding: 25px;
 
 }
@@ -52,9 +56,24 @@ div.about {
 
 .preview-div {
     background-color: pink;
-    height: 50vh;
-   
+    min-height: 60vh;
+    padding: 25px;
 
+
+}
+
+.preview {
+    color: pink;
+    font-size: 16;
+    background-color: #5a214c;
+    border-radius: 9px;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+
+.yt-video{
+    margin-top: 25px;
 }
 
 /* --------------------------------------------------------- Nav */
