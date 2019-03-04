@@ -2,8 +2,10 @@
 
 .main-div {
     background-color: black;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bknj.jpg');
     background-position: top center;
+    background-size: contain;
     height: 40vh;
     z-index: 1;
     background-attachment: fixed;
@@ -24,7 +26,7 @@ div.preview {
 }
 
 .main-div p {
-    color: pink;
+    color: #fafafa;
     font-family: 'Exo', sans-serif;
     font-size: 11vw;
     font-weight: bold;
@@ -36,7 +38,7 @@ div.preview {
 }
 
 .about-div {
-    background-color: orange;
+    background-color: white;
     min-height: 60vh;
     padding: 25px;
 
@@ -55,7 +57,7 @@ div.preview {
 }
 
 .preview-div {
-    background-color: pink;
+    background-color: white;
     min-height: 60vh;
     padding: 25px;
 
@@ -65,38 +67,47 @@ div.preview {
 .preview {
     color: pink;
     font-size: 16;
-    background-color: #5a214c;
+    background-color: black;
     border-radius: 9px;
     height: 100%;
     width: 100%;
     padding: 15px;
 }
 
-.yt-video{
+.yt-video {
     margin-top: 25px;
 }
 
 /* --------------------------------------------------------- Nav */
 
 .nav-row {
-    height: 7%;
     background-color: black;
     position: fixed;
-
     width: 100vw;
     margin: 0;
 }
 
+#canary {
+    font-family: 'Exo', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
 .nav-link {
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     /*font-style: italic;*/
-    padding-top: 10px;
+    padding-top: 20px;
     color: pink;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-family: 'Exo', sans-serif;
 }
 
 .navbar {
     background-color: #000;
+    height: 65px;
+}
+
+.nav-canary{
+    padding-top: 10px;
 }
