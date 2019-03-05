@@ -118,10 +118,6 @@ div.preview {
     padding: 15px;
 }
 
-.yt-video {
-    margin-top: 25px;
-}
-
 /* --------------------------------------------------------- Nav */
 
 .nav-row {
@@ -172,7 +168,8 @@ div.preview {
 /* ------------------------------------------------------ Media Page */
 
 .full-drift {
-    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
+    height: 150vh;
     margin-top: 25px;
     background-attachment: fixed;
 }
@@ -188,15 +185,17 @@ div.preview {
     margin-top: 50px;
 }
 
-.audio {
-    background-color: transparent;
+.sndcld-album {
+    margin-top: 25px;
 }
 
 .video-div {
-    margin: 50px 12.5vw 10px 12.5vw;
+    margin-top: 50px;
     text-align: center;
     max-width: 75vw;
     color: #fafafa;
-    background-color: transparent;
-    
+}
+
+.yt-video {
+    margin-top: 25px;
 }
