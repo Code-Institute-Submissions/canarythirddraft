@@ -1,31 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Homemade+Apple:100,200,300,400,500,600,700');
 
 .main-div {
-    background-color: #8e8d8d;
+    background-color: #fff;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bknj.jpg');
     background-position: top center;
     background-size: contain;
-    height: 45vh;
+    height: 50vh;
     z-index: 1;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
+/* ------------------------------------------------ Social */
+
 .social {
     text-align: center;
     font-size: 50px;
     margin: 25px 300px 25px 300px;
-    background-color: #8e8d8d;
+    background-color: #fff;
 }
 
 .social-links p i {
     color: black;
-    background-color: #8e8d8d;
+    background-color: #fff;
 }
 
 .social-links {
-    border-bottom: 3px solid black;
     padding-bottom: 15px;
+}
+
+/* ------------------------------------------------ Body */
+
+.drift {
+    margin-top: 75px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/driftcrows.jpg');
+    background-position: top center;
+    background-size: cover;
+    height: 95vh;
+    z-index: 1;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    border-top: 3px solid black;
 }
 
 .flex-container {
@@ -52,26 +68,40 @@ div.preview {
 }
 
 .about-div {
-    background-color: #8e8d8d;
+    background-color: transparent;
     min-height: 60vh;
+    max-width: 590px;
     padding: 25px;
-
+    float: right;
+    margin-right: 100px;
+    margin-top: 60px;
+    text-align: justify;
 }
 
 .about {
     color: black;
     font-size: 16;
-    background-color: #f8f2e2;
+    background-color: transparent;
     border-radius: 9px;
     height: 100%;
     width: 100%;
     padding: 15px;
+}
 
-
+.book-now {
+    margin-top: 25px;
+    margin-right: 10px;
+    padding-top: 8px;
+    border: 2px solid #000;
+    width: 150px;
+    height: 50px;
+    text-align-last: center;
+    font-size: 20px;
+    float: right;
 }
 
 .preview-div {
-    background-color: #8e8d8d;
+    background-color: transparent;
     min-height: 60vh;
     padding: 25px;
 
@@ -79,9 +109,9 @@ div.preview {
 }
 
 .preview {
-    color: pink;
+    color: #000;
     font-size: 16;
-    background-color: black;
+    background-color: transparent;
     border-radius: 9px;
     height: 100%;
     width: 100%;
@@ -133,6 +163,6 @@ div.preview {
 }
 
 .container-fluid {
-    background-color: #8e8d8d;
+    background-color: #fff;
     border-top: 3px solid black;
 }
