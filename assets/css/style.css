@@ -298,7 +298,7 @@ fieldset {
   padding: 10px;
 }
 
-#contact input[type="text"]:hover,
+/* #contact input[type="text"]:hover,
 #contact input[type="email"]:hover,
 #contact input[type="tel"]:hover,
 #contact textarea:hover {
@@ -306,7 +306,7 @@ fieldset {
   -moz-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   border: 1px solid #aaa;
-}
+} */
 
 #contact textarea {
   height: 100px;
@@ -359,3 +359,10 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+
+/* ------------------------------------------------------- News Page */
+
+.news-div {
+  text-align: center;
+  margin: 250px 150px 50px 150px;
+  color: black;
