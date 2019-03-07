@@ -362,7 +362,34 @@ fieldset {
 
 /* ------------------------------------------------------- News Page */
 
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+
 .news-div {
   text-align: center;
-  margin: 250px 150px 50px 150px;
-  color: black;
+  margin-top: 100px;
+  color: #aaa;
+  background-color: transparent;
+  max-width: 80%;
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.news-item-heading {
+  margin-top: 50px;
+}
+
+dl dt {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+dl dd {
+  font-size: 16px;
+}
+
+.news-body {
+}
