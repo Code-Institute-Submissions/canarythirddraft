@@ -4,7 +4,7 @@
     background-color: #fff;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/canarybw.jpg');
     background-position: top center;
-    background-size: contain;
+    background-size: cover;
     height: 50vh;
     z-index: 1;
     background-attachment: fixed;
@@ -190,9 +190,9 @@ div.preview {
 
 /* ------------------------------------------------------ Media Page */
 
-.full-drift {
+.media-drift {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
-    height: 150vh;
+    height: 200vh;
     margin-top: 25px;
     background-attachment: fixed;
 }
@@ -239,14 +239,15 @@ div.preview {
   float: right;
 }
 
-/* -------- Style input font -------- */
+/* -------- The code for this contact form was taken from codepen.io and modified to suit my needs -------- */
 
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 12px/16px "Exo", sans-serif;
+  font: 400 14fpx/16px "Exo", sans-serif;
+  color: #aaar
 }
 
 #contact {
@@ -392,4 +393,131 @@ dl dd {
 }
 
 .news-body {
+}
+
+/* ------------------------------------------------------- Media Queries */
+
+@media (max-width: 991px) {
+
+  /*------------------------------------------------------ Nav */
+
+  .nav-canary {
+    width: 200px;
+  }
+
+  .social {
+      margin: 25px 200px 25px 200px;
+  }
+
+  /* -----------------------------------------------------  Landing */
+
+  .about-div {
+
+    float: none;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  /* ----------------------------------------------------- Contact Page */
+
+  .full-light {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
+    }
+
+  .form-container {
+    float: none;
+    margin: 0 auto;
+  }
+
+  #contact h3,
+  #contact h4 {
+    color: #aaa;
+  }
+
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact textarea {
+    border: 2px solid #aaa;
+  }
+
+  #contact button[type="submit"] {
+    border: 2px solid #aaa;
+    color: #aaa;
+  }
+
+  #contact button[type="submit"]:hover {
+    background-color: #aaa;
+    color: #000;
+  }
+
+  #contact input::placeholder,
+  #contact textarea::placeholder {
+    color: #aaa;
+  }
+
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact textarea,
+  #contact button[type="submit"] {
+    font: 400 14px/16px "Exo", sans-serif;
+    color: #aaa;
+  }
+
+
+
+/* ------------------------------------------------------ Media */
+
+.media-drift {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
+    height: 200vh;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .drift {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
+    }
+
+  .about {
+    color: #aaa;
+  }
+
+  .book-now {
+      color: #aaa;
+      border: 2px solid #aaa;
+  }
+
+  .book-now:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+    background-color: black;
+    color:#aaa;
+  }
+
+  .social {
+      margin: 25px 100px 25px 100px;
+  }
+}
+
+@media (max-width: 533px) {
+  .social {
+      margin: 25px 50px 25px 50px;
+  }
+
+  .drift {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
+      height: 120vh;
+    }
+
+
+
+  .media-drift {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
+      height: 400vh;
+    }
 }
