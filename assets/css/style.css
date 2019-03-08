@@ -64,7 +64,6 @@ div.preview {
     position: fixed;
     top: 55px;
     left: 30px;
-
 }
 
 .about-div {
@@ -116,8 +115,6 @@ div.preview {
     background-color: transparent;
     min-height: 60vh;
     padding: 25px;
-
-
 }
 
 .preview {
@@ -286,8 +283,6 @@ fieldset {
   color: black;
 }
 
-
-
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
@@ -298,16 +293,6 @@ fieldset {
   margin: 0 0 5px;
   padding: 10px;
 }
-
-/* #contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
-  border: 1px solid #aaa;
-} */
 
 #contact textarea {
   height: 100px;
@@ -368,7 +353,6 @@ fieldset {
   margin: 0 auto;
 }
 
-
 .news-div {
   text-align: center;
   margin-top: 100px;
@@ -395,7 +379,7 @@ dl dd {
 .news-body {
 }
 
-/* ------------------------------------------------------- Media Queries */
+/* ------------------------------------------------------- Media Queries 991px */
 
 @media (max-width: 991px) {
 
@@ -465,8 +449,6 @@ dl dd {
     color: #aaa;
   }
 
-
-
 /* ------------------------------------------------------ Media */
 
 .media-drift {
@@ -475,6 +457,8 @@ dl dd {
   }
 
 }
+
+/* ------------------------------------------------------ Media Queries 767px */
 
 @media (max-width: 767px) {
   .drift {
@@ -504,6 +488,8 @@ dl dd {
   }
 }
 
+/* -------------------------------------------------------- Media Queries 533px */
+
 @media (max-width: 533px) {
   .social {
       margin: 25px 50px 25px 50px;
@@ -513,8 +499,6 @@ dl dd {
       background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
       height: 120vh;
     }
-
-
 
   .media-drift {
       background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
