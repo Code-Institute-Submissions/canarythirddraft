@@ -392,7 +392,7 @@ dl dd {
   /* ----------------------------------------------------- Contact Page */
 
   .full-light {
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
+      background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
     }
 
   .form-container {
@@ -436,10 +436,10 @@ dl dd {
     color: #aaa;
   }
 
-/* ------------------------------------------------------ Media */
+/* ------------------------------------------------------ Media Page */
 
 .media-drift {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
+    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
     height: 200vh;
   }
 
@@ -449,7 +449,7 @@ dl dd {
 
 @media (max-width: 767px) {
   .drift {
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
+      background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
     }
 
   .about {
@@ -485,22 +485,40 @@ dl dd {
   }
 
   .navbar-inverse .navbar-nav>li>a {
-    color: #000;
+    color: #e8dfb8;
   }
 
   .navbar-nav {
-    text-align: right;
-}
+    text-align: left;
+    padding:15px;
+  }
 
-.navbar-inverse .navbar-nav>.active>a {
-  background-color: transparent;
-  color: #000;
-}
+  .overlay {
+   background: rgba(0, 0, 0, 0.8);
 
-.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+   min-width: 150px;
+  }
+
+  .navbar-inverse .navbar-nav>.active>a {
+    background-color: transparent;
+    color: #e8dfb8;
+  }
+
+  .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: #5d5c5c;
     background-color: transparent;
-}
+  }
+
+  .media-drift {
+    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
+    height: 130vh;
+  }
+
+  .media-heading {
+    margin-bottom: 120px;
+    margin-top: 45;
+    font-size: 50px;
+  }
 
 }
 
@@ -512,12 +530,12 @@ dl dd {
   }
 
   .drift {
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
+      background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
       height: 120vh;
-    }
+  }
 
   .media-drift {
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/driftcrows.jpg');
+      background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
       height: 400vh;
-    }
+  }
 }
