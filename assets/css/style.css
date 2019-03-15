@@ -506,7 +506,7 @@ dl dd {
 
 /* -------------------------------------------------------- Media Queries 533px */
 
-@media (max-width: 533px) {
+@media (max-width: 533px) and (min-width: 766px) {
   .social {
       margin: 25px 50px 25px 50px;
   }
