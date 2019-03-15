@@ -12,42 +12,37 @@
 
 <body>
 
-    <nav class="main">
+    <div class="main">
         <div class="container-fluid" id="body">
             <div class="row">
                 <div class="col-xs-12 main-div"></div>
-
-                <div class="navbar navbar-default navbar-fixed-top navbar-collapse">
-                    <div class="col-xs-2 home-link nav-link nav-canary"><a href="index.html"><span id="canary">Canary</span></a></div>
-                    <div class="col-xs-1 news-link nav-link hidden-xs"><a href="news.html"><span>News</span></a></div>
-                    <div class="col-xs-1 media-link nav-link hidden-xs"><a href="media.html"><span>Media</span></a></div>
-                    <div class="col-xs-1 contact-link nav-link hidden-xs"><a href="contact.html"><span>Contact</span></a></div>
-                    <div class="col-xs-7 hidden-xs"></div>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <div class="collapse">
-                      <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                      </ul>
-                      <div class="navbar-header navbar-right">
-                    		<p class="navbar-text">
-                    		<a href="#" class="navbar-link">Username</a>
-                    		</p>
-                    	</div>
-
-                    </div>
-                </div>
             </div>
         </div>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span id="canary">Canary</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid social-container">
             <div class="social">
                 <div class="col-xs-4 social-links">
                     <p class="social-header">
@@ -82,41 +77,14 @@
 
                             <p>Get in touch if you are a venue looking for original bands or if you are hosting an event and would like to secure us as entertainment.</p>
                             <a href="contact.html"><div class="book-now">Book Now</div></a>
-                            <!--
-
-<div class="news-snippet">
-                                <h2>News Snippets</h2>
-
-                                <h3>Metal Madness Jubilee</h3>
-                                <p>We are playing a 9pm show at the Metal Madness festival at the Jubilee hotel in the Valley.</p>
-                                <br>Tickets $35, bands start at 10am
-                                <h3>New live album</h3>
-                                <p>We recently recorded a live album at the Griffith University. The whole album is available to stream in the media section.</p>
-                            </div>  -->
                         </div>
-
                     </div>
-
-                    <!--                    <div class="col-xs-12 col-md-6 preview-div flex-container">
-                        <div class="preview">
-                            <h2>Featured</h2>
-                            <p>A couple of songs to get you in the mood to hit the media secion, where you can find soundcloud and youtube streams of live shows and studio roughs.</p>
-                            <h3>QBL- Canary Live at Griffith University.</h3>
-                            <div class="sndcld-song">
-                                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/16063815&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                            </div>
-                            <h3>Nothing 2 - Live at Autopilot</h3>
-                            <div class="yt-video">
-                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/HuN9AZahr4E" showinfo="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
 
     </section>
-  <script src="assets/js/menu.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"</script>
 </body>
 
 </html>
