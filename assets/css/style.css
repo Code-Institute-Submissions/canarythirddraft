@@ -475,7 +475,7 @@ dl dd {
   }
 
   .navbar-toggle {
-        margin-top: 13px;
+        margin-top: 17px;
         display: block;
         border: none;
     }
@@ -487,6 +487,20 @@ dl dd {
   .navbar-inverse .navbar-nav>li>a {
     color: #000;
   }
+
+  .navbar-nav {
+    text-align: right;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+  background-color: transparent;
+  color: #000;
+}
+
+.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #5d5c5c;
+    background-color: transparent;
+}
 
 }
 
