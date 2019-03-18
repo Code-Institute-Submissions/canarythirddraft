@@ -159,8 +159,11 @@ ul li {
   font-family: 'Exo', sans-serif;
   padding-right: 25px;
   padding-top: 12;
-  color: #aaa;
 }
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #e8dfb8;
+  }
 
 .navbar {
     background-color: #000;
@@ -169,6 +172,11 @@ ul li {
 
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #e8dfb8;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #e8dfb8;
+    background-color: #080808;
 }
 
 
