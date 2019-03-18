@@ -27,7 +27,7 @@ The media page features both soundcloud playlists and youtube videos to showcase
 
 The form on the contact page was originally an example contact form from codepen.io. I modified it quite heavily to fit the style of the site and to only include functions that I needed. The original can be found [here.](https://codepen.io/colorlib/pen/KVoZyv)
 
-The background image of the crows sitting atop the snowdrift has a gradient applied to it. I found how to do this in a stackover answer [here.](https://stackoverflow.com/questions/17134929/overlay-a-background-image-with-an-rgba-background-color)
+The background image of the crows sitting atop the snowdrift has a gradient applied to it. I found how to do this in a stackoverflow answer [here.](https://stackoverflow.com/questions/17134929/overlay-a-background-image-with-an-rgba-background-color)
 
 
 ### Features Left to Implement
