@@ -52,6 +52,4 @@ The collapsible Navbar was found at w3schools.com [here](https://www.w3schools.c
 
 The contact form was found on codepen.io and is credited to colorlib. it can be found [here.](https://codepen.io/colorlib/pen/KVoZyv)
 
-The media query for the collapsed navbar regardless of viewport width was taken from this [site](https://www.codeply.com/go/iaM1zcNsQB/bootstrap-navbar-always-collapsed).
-
 The code to apply a gradient to an image was found [here.](https://stackoverflow.com/questions/17134929/overlay-a-background-image-with-an-rgba-background-color) Credit belongs to Wladimir Palant whos answer provided the code.

@@ -135,6 +135,8 @@ div.preview {
 
 /* --------------------------------------------------------- Nav */
 
+/*-- This navbar code was found on w3schools.com and modified to suit. Links to the original can be found in the README.md */
+
 .navbar-brand {
   padding-top: 23px;
 }
@@ -218,7 +220,7 @@ ul li {
 /* ------------------------------------------------------- Contacts */
 
 .full-light {
-    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
+    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg'); /* Acknowledgements for this image (referenced several times in this file) can be found in the README.md */
     height: 100vh;
     margin-top: 25px;
     background-attachment: fixed;
@@ -231,7 +233,7 @@ ul li {
   float: right;
 }
 
-/* -------- The code for this contact form was taken from codepen.io and modified to suit my needs -------- */
+/* -------- The code for this contact form was taken from codepen.io and modified to suit my needs. Link to the original can be found in the README.md -------- */
 
 #contact input[type="text"],
 #contact input[type="email"],
