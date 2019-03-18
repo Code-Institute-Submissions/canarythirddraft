@@ -522,6 +522,16 @@ dl dd {
 
 }
 
+@media (min-width: 534px) and (max-width: 766px) {
+  .drift {
+      height: 200vh;
+    }
+
+  .media-drift {
+    height: 500vh;
+  }
+}
+
 /* -------------------------------------------------------- Media Queries 533px */
 
 @media (max-width: 533px) {
