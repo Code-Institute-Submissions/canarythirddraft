@@ -86,7 +86,7 @@ div.preview {
 
 .about {
     color: black;
-    font-size: 16;
+    font-size: 16px;
     background-color: transparent;
     border-radius: 9px;
     height: 100%;
@@ -125,7 +125,7 @@ div.preview {
 
 .preview {
     color: #000;
-    font-size: 16;
+    font-size: 16px;
     background-color: transparent;
     border-radius: 9px;
     height: 100%;
@@ -155,10 +155,10 @@ div.preview {
 }
 
 ul li {
-  font-size: 18;
+  font-size: 18px;
   font-family: 'Exo', sans-serif;
   padding-right: 25px;
-  padding-top: 12;
+  padding-top: 12px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -238,8 +238,8 @@ ul li {
 #contact input[type="tel"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 14fpx/16px "Exo", sans-serif;
-  color: #aaar
+  font: 400 14px/16px "Exo", sans-serif;
+  color: #aaa;
 }
 
 #contact {
@@ -322,7 +322,7 @@ fieldset {
 #contact input:focus,
 #contact textarea:focus {
   outline: 0;
-  border: 1px solid #aaa;
+  border: 1px solid #e8dfb8;
 }
 
 ::-webkit-input-placeholder {
@@ -505,7 +505,6 @@ dl dd {
 
   .overlay {
    background: rgba(0, 0, 0, 0.8);
-
    min-width: 150px;
   }
 
@@ -526,7 +525,7 @@ dl dd {
 
   .media-heading {
     margin-bottom: 120px;
-    margin-top: 45;
+    margin-top: 45px;
     font-size: 50px;
   }
 
