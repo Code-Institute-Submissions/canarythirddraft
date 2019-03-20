@@ -12,9 +12,9 @@ I went through several iterations in the design process, starting with what I th
 
 You can find the various "drafts" for this assignment in the following repositories;
 
-- Draft 1 - [Repository](https://github.com/cronugs/canary-site) [deployed on GitHub Pages](https://cronugs.github.io/canary-site/)
-- Draft 2 - [Repository](https://github.com/cronugs/canary2) [deployed on GitHub Pages](https://cronugs.github.io/canary2/)
-- Draft 3 - [Repository](https://github.com/cronugs/canary-processwork) [deployed on GitHub Pages](https://cronugs.github.io/canary-processwork/)
+- Draft 1 - [Repository](https://github.com/cronugs/canary-site) deployed on [GitHub Pages](https://cronugs.github.io/canary-site/)
+- Draft 2 - [Repository](https://github.com/cronugs/canary2) deployed on [GitHub Pages](https://cronugs.github.io/canary2/)
+- Draft 3 - [Repository](https://github.com/cronugs/canary-processwork) deployed on [GitHub Pages](https://cronugs.github.io/canary-processwork/)
 
 Most importantly, I wanted the site to be simple. Too many visual elements are distracting and take the users attention away from the information that is being presented.
 
