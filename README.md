@@ -2,6 +2,12 @@
 
 This is a website for my band, Canary. Since I have moved to Sweden and Canary were based in Australia, we are no longer playing together. However, I thought it would be fun to frame this milestone project in a more personal context. Since we are not currently performing, the website is based in an alternate universe where Canary are still an active band.
 
+This page is designed for two primary user groups. Fans who want to engage with the band on social media and find information about upcoming shows and releases and event organisers looking to book the band for a show. My aim was to accomplish the following goals in the most simple way possible.
+
+1. Users should be able to easily find the band on social media.
+2. Users should have easy access to examples of the bands work.
+3. Users should be easily be able to contact the band to make booking enquiries.
+
 
 ## Demo
 You can see the website live on [GitGub Pages](https://cronugs.github.io/canarythirddraft/index.html).
@@ -18,7 +24,7 @@ You can find the various "drafts" for this assignment in the following repositor
 
 Most importantly, I wanted the site to be simple. Too many visual elements are distracting and take the users attention away from the information that is being presented.
 
-Social media links are front and center on the landing page (twitter links to my own twitter profile since Canary never had one) and examples of the bands work are easily found in the media section. News about upcoming shows, tour dates and upcoming releases are in the news page. Booking the band for an event or making other inquiries is easily accomplished with the contact form.
+Social media links are front and center on the landing page (twitter links to my own twitter profile since Canary never had one) and examples of the bands work are easily found in the media section. News about upcoming shows, tour dates and album releases are in the news page. Booking the band for an event or making other inquiries is easily accomplished with the contact form.
 
 ## Technologies
 1. HTML
