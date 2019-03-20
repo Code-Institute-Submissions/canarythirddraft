@@ -53,7 +53,7 @@ I have done thorough testing using the W3C validators for both HTML and CSS. I h
 
 
 ## Deployment
-The site is currently deployed on Github pages [here.](https://cronugs.github.io/canarythirddraft/index.html)
+The site is currently deployed on Github pages [here.](https://cronugs.github.io/canarythirddraft/index.html). This was achieved by going to the settings for the repository, enabling GitHub Pages and setting the source to the master brance of the repository.
 
 To run the code locally, clone this repository and point your browser to the index.html file
 
