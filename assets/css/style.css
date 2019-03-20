@@ -1,142 +1,134 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,400italic,500,600,700|Exo:100,200,300,400,500,600,700|Homemade+Apple:100,200,300,400,500,600,700');
 
 .main-div {
-    background-color: #fff;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../images/canaryshot.jpg');
-    background-position: top center;
-    background-size: cover;
-    height: 50vh;
-    z-index: 1;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  background-color     : #fff;
+  background-image     : linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../images/canaryshot.jpg");
+  background-position  : top center;
+  background-size      : cover;
+  height               : 50vh;
+  z-index              : 1;
+  background-attachment: fixed;
+  background-repeat    : no-repeat;
 }
-
 /* ------------------------------------------------ Social */
-
 .social {
-    text-align: center;
-    font-size: 50px;
-    margin: 25px 300px 25px 300px;
-    background-color: #fff;
+  text-align      : center;
+  font-size       : 50px;
+  margin          : 25px 300px;
+  background-color: #fff;
 }
 
 .social-container {
-    background-color: #fff;
-    border-top: 3px solid black;
-    margin: 0px;
+  background-color: #fff;
+  border-top      : 3px solid black;
+  margin          : 0;
 }
 
 .social-links p i {
-    color: black;
-    background-color: #fff;
+  color           : black;
+  background-color: #fff;
 }
 
 .social-links {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
-
 /* ------------------------------------------------ Body */
-
 .drift {
-    margin-top: 75px;
-    background-color: transparent;
-    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
-    background-position: top center;
-    background-size: cover;
-    height: 96vh;
-    z-index: 1;
-    /* background-attachment: fixed; */
-    background-repeat: no-repeat;
-    border-top: 3px solid black;
+  margin-top         : 75px;
+  background-color   : transparent;
+  background-image   : linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/driftcrows.jpg");
+  background-position: top center;
+  background-size    : cover;
+  height             : 96vh;
+  z-index            : 1;
+  background-repeat  : no-repeat;
+  border-top         : 3px solid black;
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 50vh;
+  display       : flex;
+  flex-direction: column;
+  min-height    : 50vh;
 }
 
 div.about,
 div.preview {
-    flex: 1;
+  flex: 1;
 }
 
 .main-div p {
-    color: #ffd2d2;
-    font-family: 'Exo', sans-serif;
-    font-size: 11vw;
-    font-weight: bold;
-    font-style: italic;
-    position: fixed;
-    top: 55px;
-    left: 30px;
+  color      : #ffd2d2;
+  font-family: 'Exo', sans-serif;
+  font-size  : 11vw;
+  font-weight: bold;
+  font-style : italic;
+  position   : fixed;
+  top        : 55px;
+  left       : 30px;
 }
 
 .about-div {
-    background-color: transparent;
-    min-height: 400px;
-    max-width: 590px;
-    padding: 25px;
-    float: right;
-    margin-right: 100px;
-    margin-top: 60px;
-    text-align: justify;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background-color: transparent;
+  min-height      : 400px;
+  max-width       : 590px;
+  padding         : 25px;
+  float           : right;
+  margin-right    : 100px;
+  margin-top      : 60px;
+  text-align      : justify;
+  box-shadow      : 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .about {
-    color: #ffd2d2;
-    font-size: 16px;
-    background-color: transparent;
-    border-radius: 9px;
-    height: 100%;
-    width: 100%;
-    padding: 15px;
+  color           : #ffd2d2;
+  font-size       : 16px;
+  background-color: transparent;
+  border-radius   : 9px;
+  height          : 100%;
+  width           : 100%;
+  padding         : 15px;
 }
 
 .book-now {
-    margin-top: 25px;
-    margin-right: 10px;
-    padding-top: 8px;
-    border: 2px solid #ffd2d2;
-    width: 150px;
-    height: 50px;
-    color: #ffd2d2;
-    text-align-last: center;
-    font-size: 20px;
-    float: right;
-    text-decoration: none;
+  margin-top     : 25px;
+  margin-right   : 10px;
+  padding-top    : 8px;
+  border         : 2px solid #ffd2d2;
+  width          : 150px;
+  height         : 50px;
+  color          : #ffd2d2;
+  text-align-last: center;
+  font-size      : 20px;
+  float          : right;
+  text-decoration: none;
 }
 
 .book-now:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
-  border: 1px solid #ffd2d2;
-  background-color: black;
-  color:#ffd2d2;
+  -moz-transition   : border-color 0.3s ease-in-out;
+  transition        : border-color 0.3s ease-in-out;
+  border            : 1px solid #ffd2d2;
+  background-color  : black;
+  color             : #ffd2d2;
 }
 
 .preview-div {
-    background-color: transparent;
-    min-height: 60vh;
-    padding: 25px;
+  background-color: transparent;
+  min-height      : 60vh;
+  padding         : 25px;
 }
 
 .preview {
-    color: #000;
-    font-size: 16px;
-    background-color: transparent;
-    border-radius: 9px;
-    height: 100%;
-    width: 100%;
-    padding: 15px;
+  color           : #000;
+  font-size       : 16px;
+  background-color: transparent;
+  border-radius   : 9px;
+  height          : 100%;
+  width           : 100%;
+  padding         : 15px;
 }
-
 /* --------------------------------------------------------- Nav */
-
 /*-- This navbar code was found on w3schools.com and modified to suit. Links to the original can be found in the README.md */
-
 .navbar-brand {
   padding-top: 23px;
 }
@@ -146,137 +138,132 @@ div.preview {
 }
 
 #canary {
-    font-family: 'Exo', sans-serif;
-    padding: 100% 40px 6px 30px;
-    font-size: 35px;
-    font-weight: bold;
-    font-style: italic;
-    color: #e8dfb8;
-    border-right: 1px solid #ffd2d2;
-
+  font-family : 'Exo', sans-serif;
+  padding     : 100% 40px 6px 30px;
+  font-size   : 35px;
+  font-weight : bold;
+  font-style  : italic;
+  color       : #e8dfb8;
+  border-right: 1px solid #ffd2d2;
 }
 
 ul li {
-  font-size: 18px;
-  font-family: 'Exo', sans-serif;
+  font-size    : 18px;
+  font-family  : 'Exo', sans-serif;
   padding-right: 25px;
-  padding-top: 12px;
+  padding-top  : 12px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #e8dfb8;
-  }
+.navbar-inverse .navbar-nav > li > a {
+  color: #e8dfb8;
+}
 
 .navbar {
-    background-color: #000;
-    height: 65px;
+  background-color: #000;
+  height          : 65px;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #e8dfb8;
+  background-color: #e8dfb8;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #e8dfb8;
-    background-color: #080808;
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color           : #e8dfb8;
+  background-color: #080808;
 }
-
-
 /* ------------------------------------------------------ Media Page */
-
 .media-drift {
-    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
-    height: 200vh;
-    margin-top: 25px;
-    background-attachment: fixed;
+  background-image     : linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/driftcrows.jpg");
+  height               : 200vh;
+  margin-top           : 25px;
+  background-attachment: fixed;
 }
 
 .audio-div {
-    margin: 100px 12.5vw 10px 12.5vw;
-    text-align: center;
-    max-width: 75vw;
-    color: #ffd2d2;
+  margin    : 100px 12.5vw 10px;
+  text-align: center;
+  max-width : 75vw;
+  color     : #ffd2d2;
 }
 
 .griffith {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .sndcld-album {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .video-div {
-    margin-top: 50px;
-    text-align: center;
-    max-width: 75vw;
-    color: #ffd2d2;
+  margin-top: 50px;
+  text-align: center;
+  max-width : 75vw;
+  color     : #ffd2d2;
 }
 
 .yt-video {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .new-song h3 {
   margin-top: 90px;
 }
-
 /* ------------------------------------------------------- Contacts */
-
 .full-light {
-    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg'); /* Acknowledgements for this image (referenced several times in this file) can be found in the README.md */
-    height: 100vh;
-    margin-top: 25px;
-    background-attachment: fixed;
+  background-image     : linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/driftcrows.jpg");
+  /* Acknowledgements for this image (referenced several times in this file) can be found in the README.md */
+  height               : 100vh;
+  margin-top           : 25px;
+  background-attachment: fixed;
 }
 
 .form-container {
-  max-width: 600px;
+  max-width   : 600px;
   margin-right: 80px;
-  position: relative;
-  float: right;
+  position    : relative;
+  float       : right;
 }
-
 /* -------- The code for this contact form was taken from codepen.io and modified to suit my needs. Link to the original can be found in the README.md -------- */
-
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 14px/16px "Exo", sans-serif;
+  font : 400 14px/16px "Exo", sans-serif;
   color: #ffd2d2;
 }
 
 #contact {
   background-color: transparent;
-  padding: 25px;
-  margin: 100px 0;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding         : 25px;
+  margin          : 100px 0;
+  box-shadow      : 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #contact h3 {
-  display: block;
-  font-size: 30px;
-  font-weight: 300;
+  display      : block;
+  font-size    : 30px;
+  font-weight  : 300;
   margin-bottom: 10px;
-  color: #ffd2d2;
+  color        : #ffd2d2;
 }
 
 #contact h4 {
-  margin: 5px 0 15px;
-  display: block;
-  font-size: 13px;
+  margin     : 5px 0 15px;
+  display    : block;
+  font-size  : 13px;
   font-weight: 400;
-  color: #ffd2d2;
+  color      : #ffd2d2;
 }
 
 fieldset {
-  border: medium none !important;
-  margin: 0 0 15px;
+  border   : medium none !important;
+  margin   : 0 0 15px;
   min-width: 100%;
-  padding: 0;
-  width: 100%;
+  padding  : 0;
+  width    : 100%;
 }
 
 #contact input::placeholder,
@@ -288,37 +275,36 @@ fieldset {
 #contact input[type="email"],
 #contact input[type="tel"],
 #contact textarea {
-  width: 100%;
-  border: 2px solid #ffd2d2;
+  width     : 100%;
+  border    : 2px solid #ffd2d2;
   background: transparent;
-  margin: 0 0 5px;
-  padding: 10px;
+  margin    : 0 0 5px;
+  padding   : 10px;
 }
 
 #contact textarea {
-  height: 100px;
+  height   : 100px;
   max-width: 100%;
-  resize: none;
+  resize   : none;
 }
 
 #contact button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: 2px solid #ffd2d2;
+  cursor    : pointer;
+  width     : 100%;
+  border    : 2px solid #ffd2d2;
   background: transparent;
-  color: #ffd2d2;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px;
+  color     : #ffd2d2;
+  margin    : 0 0 5px;
+  padding   : 10px;
+  font-size : 15px;
 }
 
 #contact button[type="submit"]:hover {
-
   -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
-  background-color: black;
-  color:#ffd2d2;
+  -moz-transition   : background 0.3s ease-in-out;
+  transition        : background-color 0.3s ease-in-out;
+  background-color  : black;
+  color             : #ffd2d2;
 }
 
 #contact button[type="submit"]:active {
@@ -328,7 +314,7 @@ fieldset {
 #contact input:focus,
 #contact textarea:focus {
   outline: 0;
-  border: 1px solid #e8dfb8;
+  border : 1px solid #e8dfb8;
 }
 
 ::-webkit-input-placeholder {
@@ -346,22 +332,20 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
-
 /* ------------------------------------------------------- News Page */
-
 .col-centered {
-  float: none;
+  float : none;
   margin: 0 auto;
 }
 
 .news-div {
-  text-align: center;
-  margin-top: 100px;
-  color: #ffd2d2;
+  text-align      : center;
+  margin-top      : 100px;
+  color           : #ffd2d2;
   background-color: transparent;
-  max-width: 80%;
-  padding: 25px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  max-width       : 80%;
+  padding         : 25px;
+  box-shadow      : 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .news-item-heading {
@@ -370,48 +354,37 @@ fieldset {
 
 dl dt {
   margin-top: 25px;
-  font-size: 18px;
+  font-size : 18px;
 }
 
 dl dd {
   font-size: 16px;
 }
 
-.news-body {
-}
-
-/* ------------------------------------------------------- Media Queries px */
-
+.news-body {}
+/* ------------------------------------------------------- Media Queries 1024px*/
 @media (max-width: 1024px) {
-
   /*------------------------------------------------------ Nav */
-
   .nav-canary {
     width: 200px;
   }
 
   .social {
-      margin: 25px 200px 25px 200px;
+    margin: 25px 200px;
   }
-
-  /* -----------------------------------------------------  Landing */
-
+  /* ----------------------------------------------------- Landing */
   .about-div {
-
-    float: none;
-    margin: 0 auto;
-    margin-top: 40px;
+    float : none;
+    margin: 40px auto 0;
   }
-
   /* ----------------------------------------------------- Contact Page */
-
   .full-light {
-      background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
-      height: 110vh;
-    }
+    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/driftcrows.jpg");
+    height          : 110vh;
+  }
 
   .form-container {
-    float: none;
+    float : none;
     margin: 0 auto;
   }
 
@@ -429,12 +402,12 @@ dl dd {
 
   #contact button[type="submit"] {
     border: 2px solid #ffd2d2;
-    color: #ffd2d2;
+    color : #ffd2d2;
   }
 
   #contact button[type="submit"]:hover {
     background-color: #ffd2d2;
-    color: #000;
+    color           : #000;
   }
 
   #contact input::placeholder,
@@ -447,106 +420,98 @@ dl dd {
   #contact input[type="tel"],
   #contact textarea,
   #contact button[type="submit"] {
-    font: 400 14px/16px "Exo", sans-serif;
+    font : 400 14px/16px "Exo", sans-serif;
     color: #ffd2d2;
   }
-
-/* ------------------------------------------------------ Media Page */
-
-.media-drift {
-    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
-    height: 200vh;
+  /* ------------------------------------------------------ Media Page */
+  .media-drift {
+    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/driftcrows.jpg");
+    height          : 200vh;
   }
-
 }
-
-/* ------------------------------------------------------ Media Queries */
-
-
+/* -------------------------------------------------------- Media Queries 767px */
 @media (max-width: 767px) {
   .drift {
-      background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
-    }
+    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/driftcrows.jpg");
+  }
 
   .about {
     color: #ffd2d2;
   }
 
   .book-now {
-      color: #ffd2d2;
-      border: 2px solid #ffd2d2;
+    color : #ffd2d2;
+    border: 2px solid #ffd2d2;
   }
 
   .book-now:hover {
     -webkit-transition: border-color 0.3s ease-in-out;
-    -moz-transition: border-color 0.3s ease-in-out;
-    transition: border-color 0.3s ease-in-out;
-    border: 1px solid #ffd2d2;
-    background-color: black;
-    color:#ffd2d2;
+    -moz-transition   : border-color 0.3s ease-in-out;
+    transition        : border-color 0.3s ease-in-out;
+    border            : 1px solid #ffd2d2;
+    background-color  : black;
+    color             : #ffd2d2;
   }
 
   .social {
-      margin: 25px 100px 25px 100px;
+    margin: 25px 100px;
   }
 
   .navbar-toggle {
-        margin-top: 17px;
-        display: block;
-        border: none;
-    }
+    margin-top: 17px;
+    display   : block;
+    border    : none;
+  }
 
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #e8dfb8;
   }
 
-  .navbar-inverse .navbar-nav>li>a {
+  .navbar-inverse .navbar-nav > li > a {
     color: #e8dfb8;
   }
 
   .navbar-nav {
     text-align: left;
-    padding:15px;
+    padding   : 15px;
   }
 
   .overlay {
-   background: rgba(0, 0, 0, 0.8);
-   min-width: 150px;
+    background: rgba(0, 0, 0, 0.8);
+    min-width : 150px;
   }
 
-  .navbar-inverse .navbar-nav>.active>a {
+  .navbar-inverse .navbar-nav > .active > a {
     background-color: transparent;
-    color: #e8dfb8;
+    color           : #e8dfb8;
   }
 
-  .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #5d5c5c;
+  .navbar-inverse .navbar-nav > .active > a:focus,
+  .navbar-inverse .navbar-nav > .active > a:hover {
+    color           : #5d5c5c;
     background-color: transparent;
   }
 
   .media-drift {
-    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
-    height: 130vh;
+    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/driftcrows.jpg");
+    height          : 130vh;
   }
 
   .media-heading {
     margin-bottom: 120px;
-    margin-top: 45px;
-    font-size: 50px;
+    margin-top   : 45px;
+    font-size    : 50px;
   }
-
 }
-
 @media (min-width: 767px) {
   .media-drift {
     height: 800vh;
   }
 }
-
 @media (min-width: 534px) and (max-width: 766px) {
   .drift {
-      height: 200vh;
-    }
+    height: 200vh;
+  }
 
   .media-drift {
     height: 500vh;
@@ -556,21 +521,19 @@ dl dd {
     height: 250vh;
   }
 }
-
 /* -------------------------------------------------------- Media Queries 533px */
-
 @media (max-width: 533px) {
   .social {
-      margin: 25px 50px 25px 50px;
+    margin: 25px 50px;
   }
 
   .drift {
-      background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
-      height: 120vh;
+    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/driftcrows.jpg");
+    height          : 120vh;
   }
 
   .media-drift {
-      background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/driftcrows.jpg');
-      height: 400vh;
+    background-image: linear-gradient(to bottom, rgba(128, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/driftcrows.jpg");
+    height          : 400vh;
   }
 }
