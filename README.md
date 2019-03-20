@@ -1,6 +1,6 @@
 # Canary - Milestone Project 1
 
-This is a website for my band, Canary. Since I have moved to Sweden and Canary were based in Australia, we are no longer playing together. However, I thought it would be fun to frame this milestone project in a more personal context. Even though we are not currently performing, the website is based in an ultinate universe where Canary are still an active band
+This is a website for my band, Canary. Since I have moved to Sweden and Canary were based in Australia, we are no longer playing together. However, I thought it would be fun to frame this milestone project in a more personal context. Since we are not currently performing, the website is based in an alternate universe where Canary are still an active band.
 
 
 ## Demo
@@ -10,9 +10,15 @@ You can see the website live on [GitGub Pages](https://cronugs.github.io/canaryt
 ## UX
 I went through several iterations in the design process, starting with what I thought was an over-the-top abstract design with bold colours. As I worked, I found myself eliminating elements one by one and after some time and a couple of restarts, came across a design I liked.
 
+You can find the various "drafts" for this assignment in the following repositories;
+
+- Draft 1 - [Repository](https://github.com/cronugs/canary-site) [deployed on GitHub Pages](https://cronugs.github.io/canary-site/)
+- Draft 2 - [Repository](https://github.com/cronugs/canary2) [deployed on GitHub Pages](https://cronugs.github.io/canary2/)
+- Draft 3 - [Repository](https://github.com/cronugs/canary-processwork) [deployed on GitHub Pages](https://cronugs.github.io/canary-processwork/)
+
 Most importantly, I wanted the site to be simple. Too many visual elements are distracting and take the users attention away from the information that is being presented.
 
-Social media links are front and center on the landing page and examples of the bands work are easily found in the media section. News about upcoming shows, tour dates and upcoming releases are in the news page. Booking the band for an event or making other inquiries is easily accomplished with the contact form.
+Social media links are front and center on the landing page (twitter links to my own twitter profile since Canary never had one) and examples of the bands work are easily found in the media section. News about upcoming shows, tour dates and upcoming releases are in the news page. Booking the band for an event or making other inquiries is easily accomplished with the contact form.
 
 ## Technologies
 1. HTML
@@ -21,7 +27,7 @@ Social media links are front and center on the landing page and examples of the 
 
 
 ## Features
-The Canary website features a collapsible navmenu. I had originally coded the nav myself, but while I was researching how to make it more responsive, I came across a great example using bootstrap on the w3school.com site [here](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp). I restyled it to match the navbar I already had in place and added the appropriate links for js and jquery in my html to enable it to function correctly.
+The Canary website features a responsive navmenu. I had originally coded the nav myself, but while I was researching how to make it respond to changes in screen size, I came across a great example using bootstrap on the w3school.com site [here](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp). I restyled it to match the navbar I already had in place and added the appropriate links for js and jquery in my html to enable it to function correctly.
 
 The media page features both soundcloud playlists and youtube videos to showcase the bands work. The youtube videos are hidden in from view in mobile screen sizes
 
@@ -33,13 +39,17 @@ The background image of the crows sitting atop the snowdrift has a gradient appl
 ### Features Left to Implement
 In the future I would like to include a youtube playlist adapted for mobile screen sizes as well as an area for photos from live performances or perhaps a social media stream for people to post pics taken at our lives shows.
 
+A scrapbook section with snippets of hand written lyrics taken from notebooks while songs were in development and other art and scribblings.
+
 
 ## Testing
 I have done thorough testing using the W3C validators for both HTML and CSS. I have also done fairly extensive testing using [responsinator](www.responsinator.com), to make sure my responsive design worked across screen sizes and orientations.
 
 
 ## Deployment
-The site is currently available to view live on Github pages [here.](https://cronugs.github.io/canarythirddraft/index.html)
+The site is currently deployed on Github pages [here.](https://cronugs.github.io/canarythirddraft/index.html)
+
+To run the code locally, clone this repository and point your browser to the index.html file
 
 
 ## Credits
